@@ -1,1 +1,1 @@
-# grid-away-grid-ahoy
+Recreating a page using grid
