@@ -13,35 +13,62 @@ body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: lightblue;
+    background-color: rgb(201, 226, 235);
 }
 .cases {
-    padding: 20px;
-    width: fit-content;
+    padding: 5%;
     background-color: white;
-    margin: 10px;
-    border-radius: 5%;
+    margin: 5%;
+    border-radius: 2%;
     position: relative;
+    aspect-ratio: 3/4;
 }
 .button {
     border: none;
-    background-color: lightcoral;
+    background-color: transparent;
     border-radius: 25px;
     position: absolute;
     bottom: 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    padding: 5px;
+    width: 33%;
+    margin-left: 28.5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
+.button:hover {
+    background-color: rgb(36, 153, 226);
+    color: white;
+    cursor:pointer;
+    box-shadow: -5px 15px 10px #8181817c;
+}
+.cases:hover {
+    box-shadow: -5px 15px 10px #8181817c;
 }
 img {
     width: 75px;
 }
 h1 {
+    padding-top: 3%;
     font-size: larger;
 }
 hr {
-    width: 150px;
+    width: 50%;
+    position: absolute;
+    bottom: 15%;
+    margin-left: 20%;
 }
 body {
     height: fit-content;
     width: 75%;
+}
+p {
+    padding-bottom: 15%;
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+}
+h1, p {
+    color: gray;
 }
